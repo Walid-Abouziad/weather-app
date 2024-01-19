@@ -1,0 +1,173 @@
+body{
+    font-family: "Roboto", "Open Sans", sans-serif;
+}
+.navbar{
+    height: 20vh;
+}
+.site-title{
+    font-size: 16px;
+}
+.site-description{
+    font-size: 10px;
+}
+.navbar-brand img{
+    width: 75px;
+    height: 35px;
+}
+.nav-item .nav-link{
+    color: white;
+}
+.nav-item .nav-link:hover{
+    border: 2px solid #009AD8;
+    border-radius: 25px;
+    color: #009AD8;
+}
+
+.navbar-nav .active-link{
+    border: 2px solid #009AD8;
+    border-radius: 25px;
+    color: #009AD8;
+}
+
+#home{
+    /* height: 30vh; */
+    background: url("../images/banner.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.search-box{
+    padding-top: 20vh;
+}
+.find-location {
+    position: relative;
+    margin-bottom: 70px;
+    border-radius: 30px;
+}
+.find-location input[type="submit"],.find-location input[type="button"] {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+    padding: 0 40px;
+    border-radius: 30px;
+}
+.find-location input[type="text"] {
+    width: 100%;
+    padding: 20px 50px 20px 60px;
+    background: #1e202b;
+    color: white;
+    border-radius: 30px;
+    border-color: #1e202b;
+}
+
+
+.wethContentHead {
+    background-color: #2D303D;
+    color: #bfc1c8;;
+
+}
+
+
+.wethContentHead-middle{
+    background-color: #222530;
+}
+
+.weth-item{
+    color: #bfc1c8;
+    height: 50vh;
+}
+.date-content{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.current-temp{
+    font-size:80px;
+    font-weight: 700;
+    color: white;
+}
+
+
+.current-body , .last-body{
+    background-color: #323544;
+}
+.middle-body {
+    background-color: #262936;
+}
+
+.weth-item p{
+    color: #198CD8;
+}
+
+
+
+
+.site-footer {
+    
+background: #262936;
+padding: 50px 0;
+}
+.site-footer .subscribe-form {
+position: relative;
+margin-bottom: 30px;
+}
+.site-footer .subscribe-form input[type="text"] {
+    padding: 20px 100px 20px 20px;
+    background: #1e202b;
+    width: 100%;
+    color: white;
+    border-radius: 30px;
+    border-color: #262936;
+}
+.site-footer .subscribe-form input[type="submit"] {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    bottom: 5px;
+    border-radius: 30px;
+    padding: 0, 10px;
+}
+.site-footer .social-links a {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background: #1e202b;
+    color: #009ad8;
+    transition: all .7s;
+    font-size: 30px;
+    padding: 5px;
+}
+.site-footer .social-links a:hover {
+    background: #009ad8;
+    color:white;
+}
+
+.site-footer p {
+    color: #BFC1B5;
+}
+.site-footer span {
+    color: #009ad8;
+}
+
+/* ----------- start media query ----------- */
+
+/* @media screen and (max-width:576px) {
+    
+} */
+/* @media screen and (min-width:577px) and (max-width:768px){
+
+} */
+/* @media screen and (min-width:769px) and (max-width:992px){
+    
+} */
+
+/* @media screen and (min-width:992px) and (max-width:1200px){
+    
+} */
+
+
+
+/* ----------- End media query ----------- */
+
